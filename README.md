@@ -4,7 +4,7 @@ CLI TUI pour gérer une liste de tâches quotidienne, directement dans le termin
 
 Les tâches sont sauvegardées dans `~/.dailycheck/YYYY-MM-DD.txt`.
 
-## Installation
+## Build
 
 ```sh
 cargo build --release
@@ -13,7 +13,7 @@ cargo build --release
 ## Utilisation
 
 ```sh
-cargo run
+./dailycheck.exe
 ```
 
 ## Raccourcis
@@ -27,4 +27,5 @@ cargo run
 | `e` | Modifier la tâche sélectionnée |
 | `d` | Supprimer la tâche sélectionnée |
 | `h` | Historique (naviguer entre les jours) |
+| `l` / `Enter` | Sélectionner une date dans l'historique |
 | `q` / `Ctrl+C` | Quitter |
